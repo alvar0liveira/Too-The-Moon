@@ -1,0 +1,24 @@
+name: shared
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.3.0
+
+publish_to: none
+
+
+# Add regular dependencies here.
+dependencies:
+  flutter:
+    sdk: flutter
+  # path: ^1.8.0
+  realm: ^1.9.0
+  
+  events:
+    path: ../data/events
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
